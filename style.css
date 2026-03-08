@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #14120b;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.nav-middle {
+  width: 50%;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-middle a:hover {
+  color: #888888;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 5px 12px;
+  border-radius: 60px;
+}
+
+.btn-signin {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #888888;
+}
